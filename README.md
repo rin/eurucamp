@@ -1,4 +1,8 @@
-eurucamp Talk
+Let's create a game with Ruby
 ========
 
-Nothing to see here … yet.
+Slides & Code for my eurucamp talk
+
+music: Wha...8 by Midipunk
+https://soundcloud.com/midipunk/wha
+
