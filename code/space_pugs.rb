@@ -34,7 +34,7 @@ class GameWindow < Gosu::Window
     super(WINDOW_WIDTH, WINDOW_HEIGHT, false)
 
     @background = Gosu::Image.new(self, "media/background.png")
-    @crash_sound = Gosu::Sample.new(self, "media/crash3.wav")
+    @crash_sound = Gosu::Sample.new(self, "media/crash.wav")
     @music = Gosu::Song.new(self, "media/music.ogg")
 
     @player = Player.new(self)
@@ -46,9 +46,9 @@ class GameWindow < Gosu::Window
   end
 
   def update
-    if button_down? Gosu::KbUp
+    if button_down? Gosu::KbDown
       @player.y = [@player.y + 10, WINDOW_HEIGHT].min
-    elsif button_down? Gosu::KbDown
+    elsif button_down? Gosu::KbUp
       @player.y = [@player.y - 10, 0].max
     end
 
