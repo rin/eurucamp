@@ -73,7 +73,7 @@ class Player
   end
 
   def collides_with?(enemy)
-    Gosu::distance(@x, @y, enemy.x, enemy.y) < 100
+    Gosu::distance(@x + 50, @y + 50, enemy.x + 50, enemy.y + 50) < 100
   end
 end
 
