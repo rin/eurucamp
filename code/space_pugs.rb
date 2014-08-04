@@ -36,7 +36,7 @@ class GameWindow < Gosu::Window
 
     @enemies.each { |e| e.move(@velocity) }
     scroll_background
-    @crash_sound.play(0.15) if @enemies.map { |enemy| @player.collides_with?(enemy) }.any?
+    @crash_sound.play(0.15) if @enemies.any? { |enemy| @player.collides_with?(enemy) }
   end
 
   def accelerate
