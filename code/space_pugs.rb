@@ -11,7 +11,7 @@ class GameWindow < Gosu::Window
 
     @background = Gosu::Image.new(self, "media/background.png")
     @crash_sound = Gosu::Sample.new(self, "media/crash.wav")
-    @music = Gosu::Song.new(self, "media/music.ogg")
+    @music = Gosu::Song.new(self, "media/pugs-in-space.ogg")
 
     @player = Player.new(self)
     @enemies = (0..3).map { |index| Enemy.new(self, index)}

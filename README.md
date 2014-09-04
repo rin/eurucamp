@@ -7,4 +7,4 @@ Code and slides for my [eurucamp talk](http://2014.eurucamp.org/speakers/#rin-ra
 
 Credits
 -------------
-**music**: [Wha...8 by Midipunk](https://soundcloud.com/midipunk/wha)
+**music**: [Pugs in Space by Frank Webber](http://soundcloud.com/franklin-webber/pugs-in-space)
